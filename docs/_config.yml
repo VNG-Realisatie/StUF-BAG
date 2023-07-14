@@ -1,0 +1,40 @@
+baseurl: "/StUF-onderlaag"
+apiname: "StUF onderlaag"
+versie-nr: 
+restAPI-Alternatief: "Nee"
+url: "http://localhost:4000"
+
+# nav is t.b.v. generatie side-navigation menu.
+# Een 'title' zonder path of url genereert slechts een kopje.
+# 'path' vormt tezamen met de baseurl de url waarmee de 'href' wordt gevuld. 
+# Indien een 'url' voorradig dan wordt daarmee de 'href' gevuld en dient het path slechts om te bepalen welke link active is.
+# 'target: blank' zorgt er voor dat de link in een nieuw tabblad wordt geöpend.
+nav:
+  - title: StUF Standaard
+    subnav:
+      - title: Overzicht
+        path: /
+      - title: StUF 3.01 familie
+        path: /301-familie
+      - title: StUF 2.04 familie
+        path: /204-familie
+      - title: Protocolbindingen
+        path: /Protocolbindingen
+      - title: Documentatie  
+        path: /Documentatie
+#      - title: Werkgroep  
+#        path: /Werkgroep 
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-remote-theme
+
+remote_theme: melsk-r/jekyll-theme-vng-realisatie
+
+github: VNG-Realisatie/StUF-BG
+
+theme: jekyll-theme-time-machine
+
+project_name: VNG-Realisatie/StUF-BG
+
+standard_family: StUF
