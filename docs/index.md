@@ -2,7 +2,7 @@
 layout: page-with-side-nav
 title: StUF Berichtenstandaard
 ---
-# BAG
+# StUF-BAG
 
 **Actuele versie:** 3.10<br/>
 **Beheerder:**  VNG Realisatie<br/>
